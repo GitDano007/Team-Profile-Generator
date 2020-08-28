@@ -1,0 +1,31 @@
+{
+  "name": "unit10hw",
+  "version": "1.0.0",
+  "description": "OOP and testing for week 10 homework",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest --verbose test/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GitDano007/team_profile_generator"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GitDano007/team_profile_generator"
+  },
+  "homepage": "https://github.com/GitDano007/team_profile_generator",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "inquirer": "^6.3.1",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "jest": "^24.8.0"
+  }
+}
